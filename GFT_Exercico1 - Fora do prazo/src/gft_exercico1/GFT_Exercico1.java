@@ -14,9 +14,6 @@ public class GFT_Exercico1 {
         String[] newStr = str.split(" ");   
         String ultimaPalavra = newStr[newStr.length - 1];
         
-        System.out.println("Quantidade de letras: " + ultimaPalavra.chars().count());
-        
-
+        System.out.println("Quantidade de letras da última palavra da frase: " + ultimaPalavra.chars().count());
     }
-    
 }
